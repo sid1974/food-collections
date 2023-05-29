@@ -1,0 +1,197 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background:#1e1c2a ;
+}
+:root{
+    --main-color:#ff702a;
+    --text-color:#fff;
+    --bg-color:#1e1c2a;
+    --big-font:3rem;
+    --h2--font:2.00rem;
+    --p-font:0.9rem;
+
+}
+*::selection{
+    background:var(--main-color);
+    color: #fff;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.box{
+    width:900px;
+    height: 450px;
+    border: 1px solid none;
+    margin-left:240px;
+    position: relative;
+    top: 50px;
+
+   
+    
+    background: rgb(65, 65, 65);
+    border-radius:10px ;
+}
+.box h1{
+    width:250px;
+    height:fit-content;
+    border: 1px solid none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background: #fff;
+    color:var(--main-color);
+    border-radius: 10px;
+    margin-left: 300px;
+
+
+}
+/*.box input{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: relative;
+    left: -400px;
+    top: 90px;
+   
+}*/
+.box .name{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.box .number{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left:160px;
+}
+.box .email{
+    width:765px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+   
+.box .password{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+   
+}
+.box .re-password{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid  #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 160px;
+   
+    
+   
+}
+.box input:focus{
+    outline: none;
+}
+::placeholder{
+    color: aliceblue;
+}
+.btnn{
+    width: 110px;
+    height: 40px;
+    border: none;
+    background: #ff7200;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left:30px ;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+.btnn:hover{
+    background: white;
+}
+.box .btnn a{
+    text-decoration: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+  
+   
+    
+  
+
+
+   

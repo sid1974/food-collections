@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background:#1e1c2a ;
+}
+:root{
+    --main-color:#ff702a;
+    --text-color:#fff;
+    --bg-color:#1e1c2a;
+    --big-font:3rem;
+    --h2--font:2.00rem;
+    --p-font:0.9rem;
+
+}
+*::selection{
+    background:var(--main-color);
+    color: #fff;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
